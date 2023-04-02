@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* solid background */
+    background: rgb(0, 212, 255);
+
+    /* gradient background*/
+    background: linear-gradient(45deg, rgba(0, 212, 255, 1) 0%, rgba(11, 3, 45, 1) 100%);
+
+    /* photo background */
+    background-image: url(https://img.freepik.com/free-photo/assortment-cinema-elements-red-background-with-copy-space_23-2148457848.jpg?w=1380&t=st=1679421589~exp=1679422189~hmac=67cdac6b6c2839c7a6f185ed13c0791e15c97e256e81adeb7debb4ce07c7087b);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.title {
+    text-align: center;
+    /* margin-top: 5rem; */
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.img-logo {
+    height: 5rem;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+.red {
+    color: #2E3840;
+}
